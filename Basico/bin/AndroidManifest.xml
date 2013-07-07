@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pe.mobiledevs.apps.basico"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="pe.mobiledevs.apps.basico.Inicio"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="Textos"
+            android:label="Textos" >
+        </activity>
+        <activity
+            android:name="Radio"
+            android:label="Radio" >
+        </activity>
+        <activity
+            android:name="MiSpinner"
+            android:label="Spinner" >
+        </activity>
+        <activity
+            android:name="MenuSimple"
+            android:label="Menu" >
+        </activity>
+        <activity android:label="Botones" android:name="Botones"></activity>
+        <activity android:label="CajaTexto" android:name="CajaTexto"></activity>
+    </application>
+
+</manifest>

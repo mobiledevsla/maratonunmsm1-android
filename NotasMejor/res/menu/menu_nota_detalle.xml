@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/accion_grabar"
+        android:icon="@drawable/icono_grabar"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="Grabar"/>
+    <item
+        android:id="@+id/accion_eliminar"
+        android:icon="@drawable/icono_eliminar"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="Eliminar"/>
+    <item
+        android:id="@+id/accion_atras"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="Atrás"/>
+
+</menu>
